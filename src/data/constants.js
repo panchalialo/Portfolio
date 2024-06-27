@@ -213,31 +213,48 @@ export const education = [
 
 export const projects = [
   
-  {
+ {
     id: 0,
-    title: "Podstream",
+    title: "PhotoGallery",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Developed a mern-stack web application that allows users to search, upload, and download images. Create their account and upload images. even they can login with their google account.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "https://raw.githubusercontent.com/panchalialo/Portfolio/main/src/images/project1.png",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Tailwind"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
+    github: "https://github.com/panchalialo/Photo_Gallery.git",
     webapp: "https://podstream.netlify.app/",
     member: [
       {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
+        name: "Panchali Ghatak",
+        img: "https://raw.githubusercontent.com/panchalialo/Portfolio/main/public/fav.ico",
+        linkedin: "www.linkedin.com/in/panchali-ghatak-a53494129",
+        github: "https://github.com/panchalialo/",
       },
+     
+    ],
+  },
+  {
+    id: 0,
+    title: "My Portfolio",
+    date: "Apr 2023 - May 2023",
+    description:
+      "Developed a portfolio website to showcase my project and other information in a single page. here you can contact me through my mail",
+    image:
+      "https://raw.githubusercontent.com/panchalialo/Portfolio/main/src/images/project2.png",
+    tags: ["React Js"],
+    category: "web app",
+    github: "https://github.com/panchalialo/Portfolio.git",
+    webapp: "https://podstream.netlify.app/",
+    member: [
       {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
+        name: "Panchali Ghatak",
+        img: "https://raw.githubusercontent.com/panchalialo/Portfolio/main/public/fav.ico",
+        linkedin: "www.linkedin.com/in/panchali-ghatak-a53494129",
+        github: "https://github.com/panchalialo/",
       },
+     
     ],
   },
 
